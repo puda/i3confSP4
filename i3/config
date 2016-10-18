@@ -200,7 +200,7 @@ bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
 new_window none
 
 #hidpi
-exec xrandr --dpi 180
+exec_always xrandr --dpi 180
 
 #applications
 exec_always compton -f
